@@ -1,0 +1,24 @@
+{
+  "name": "NodeJS-Tutorials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Firsttestscript.js",
+  "dependencies": {
+    "upper-case": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChintzRuparel/NodeJS-Tutorials.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChintzRuparel/NodeJS-Tutorials/issues"
+  },
+  "homepage": "https://github.com/ChintzRuparel/NodeJS-Tutorials#readme"
+}
