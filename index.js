@@ -1,33 +1,9 @@
-var nodemailer = require('nodemailer');
+//Index Emptied 
 
-var transporter = nodemailer.createTransport({
-  service: 'sartess',  //personal Email
-  auth: {
-    user: 'cipapiy262@sartess.com',
-    pass: ''
-  }
-});
+//Copy Paste Modules from the 'files' section 
 
-var mailOptions = {
-  from: 'chintz0952@gmail.com',
-  to: 'twodscapital@gmail.com',
-  subject: 'Sending Email using Node.js',
-  text: 'That was easy!'
-};
+//Many HTML Files created are killed to avoid confusion 
 
-var mailOptions = {
-  from: 'chintz0952@gmail.com',
-  to: 'chintan.ruparel73@nmims.edu.in',
-  subject: 'Sending Email using Node.js',
-  text: 'That was easy!'
-};
+//Packages Used - Nodemailer/Upper-Case/Formidable 
 
-
-transporter.sendMail(mailOptions, function(error, info){
-  if (error) {
-    console.log(error);
-  } else 
-  {
-    console.log('Email sent: ' + info.response);
-  }
-});
+//Happy C😉ding
