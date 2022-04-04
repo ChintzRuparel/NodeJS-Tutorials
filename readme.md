@@ -11,6 +11,6 @@ File deleted!
 
 
 
-Step 1 - Add File - `e9b137f`
-Step 2 - Rename File - `47882278`
-Step 3 - Delete File - `f804a2c`
+Step 1 - Add File - `e9b137f` <br>
+Step 2 - Rename File - `47882278` <br>
+Step 3 - Delete File - `f804a2c` <br>
