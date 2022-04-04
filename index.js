@@ -1,8 +1,10 @@
 var http = require('http');
-var uc = require('upper-case');
+
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
-  /*Use our upper-case module to upper case a string:*/
-  res.write(uc.upperCase("Hello World!"));
-  res.end();
+  res.write('<form action="fileupload" method="post" enctype="multipart/form-data">');
+  res.write('<input type="file" name="filetoupload"><br>');
+  res.write('<input type="submit">');
+  res.write('</form>');
+  return res.end();
 }).listen(8080);
