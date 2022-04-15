@@ -53,3 +53,10 @@ http.createServer(function (req, res) {
 
 Reminders 
 ce8ddd2 - Remove grunt 
+
+Reference 3 
+
+```
+var jwt = require('jsonwebtoken');
+var token = jwt.sign({ foo: 'bar' }, 'shhhhh');
+```
