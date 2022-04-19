@@ -60,3 +60,20 @@ Reference 3
 var jwt = require('jsonwebtoken');
 var token = jwt.sign({ foo: 'bar' }, 'shhhhh');
 ```
+
+Reference for alpha Vantage Stock API
+
+```
+<body>
+  <script src="path/to/alphavantage/dist/bundle.js"></script>
+  <script type="application/javascript">
+    /**
+     * Init Alpha Vantage with your API key.
+     *
+     * @param {String} key
+     *   Your Alpha Vantage API key.
+     */
+    const alpha = alphavantage({ key: 'qweqweqwe' });
+  </script>
+</body>
+```
